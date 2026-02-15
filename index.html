@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Portfolio</title>
+<title>Exact UI Replica</title>
 <link rel="stylesheet" href="figma.css">
 <link rel="stylesheet" href="media-queries.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,9 @@
 </head>
 
 <body>
+
+<!-- TOP ANCHOR FOR BACK TO TOP BUTTON -->
+<div id="top"></div>
 
 <!-- MOBILE-ONLY HEADER (Hidden on Desktop) -->
 <header class="mobile-header">
@@ -22,9 +25,11 @@
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">☰</label>
         
+        <!-- CLOSE BUTTON (Outside menu for proper functionality) -->
+        <label for="menu-toggle" class="close-menu">✕</label>
+        
         <!-- FULLSCREEN MENU -->
         <nav class="mobile-menu">
-            <label for="menu-toggle" class="close-menu">✕</label>
             <a href="#about">About me</a>
             <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
@@ -52,7 +57,7 @@
 </header>
 
 <!-- DESKTOP HEADER BAR (Your Original) -->
-<header class="top-header" id="top">
+<header class="top-header">
     <div class="nav">
         <a href="#about">About me</a>
         <a href="#skills">Skills</a>
@@ -120,7 +125,7 @@
     <div class="features">
 
         <!-- background decorative image -->
-        <img src="https://i.imgur.com/qkdpN.jpg" class="feature-bg">
+        
 
         <div class="feature-row">
             <div class="feature">
@@ -275,7 +280,7 @@
     </div>
 
     <p class="copy">
-        ©2020    Nirmal All Rights Reserved.
+        ©2020 Nirmal All Rights Reserved.
     </p>
 
 </footer>
