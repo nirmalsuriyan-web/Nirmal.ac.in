@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Portfolio</title>
+<link rel="stylesheet" href="figma.css">
+<link rel="stylesheet" href="media-queries.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- MOBILE-ONLY HEADER (Hidden on Desktop) -->
+<header class="mobile-header">
+    <div class="mobile-header-content">
+        <div class="mobile-logo">NU</div>
+        
+        <!-- HAMBURGER TOGGLE -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        
+        <!-- FULLSCREEN MENU -->
+        <nav class="mobile-menu">
+            <label for="menu-toggle" class="close-menu">✕</label>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">CONTACT ME</a>
+        </nav>
+    </div>
+    
+    <!-- MOBILE HERO SECTION -->
+    <div class="mobile-hero">
+        <div class="mobile-hero-image">
+            <img src="img/banner-student.png" alt="Profile">
+        </div>
+        <div class="mobile-hero-content">
+            <p class="mobile-greeting">Hi, I am</p>
+            <h1 class="mobile-name">Nirmal</h1>
+            <p class="mobile-title">Full Stack Developer</p>
+            
+            <div class="mobile-social">
+                <a href="#"><img src="img/image.png" alt="Facebook"></a>
+                <a href="#"><img src="img/in.webp" alt="LinkedIn"></a>
+                <a href="#"><img src="img/twt.webp" alt="Twitter"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- DESKTOP HEADER BAR (Your Original) -->
+<header class="top-header" id="top">
+    <div class="nav">
+        <a href="#about">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact" class="contact-btn">CONTACT ME</a>
+    </div>
+</header>
+
+<!-- HERO SECTION (Your Original Desktop Design) -->
+<section class="hero">
+
+    <div class="left">
+        <div class="logo">NU</div>
+
+        <div class="content">
+            <h3>Hi, I am</h3>
+            <h1>Nirmal</h1>
+            <p>Full Stack Developer</p>
+
+            <div class="icons">
+                <div><img class="f" src="img/image.png" alt=""></div>
+                <div><img class="f" src="img/in.webp" alt=""></div>
+                <div><img class="f" src="img/twt.webp" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+
+        <div class="hero-nav">
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" class="contact-btn">CONTACT ME</a>
+        </div>
+
+        <img src="img/banner-student.png" class="person">
+
+    </div>
+
+</section>
+
+<!-- BOTTOM SECTION -->
+<section class="bottom">
+    <h2>IT BERRIES</h2>
+    <p>
+        Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus.
+        Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.
+    </p>
+    <div class="read">READ MORE</div>
+</section>
+
+<section class="about-wrapper" id="about">
+
+    <!-- ABOUT TITLE -->
+    <div class="title-box">ABOUT ME</div>
+
+    <p class="about-desc">
+        I'm a Full Stack Developer with a passion for architectural integrity and seamless user experiences. I don't just write code; I build digital products that scale
+    </p>
+
+    <div class="explore-line">EXPLORE</div>
+
+    <!-- FEATURES -->
+    <div class="features">
+
+        <!-- background decorative image -->
+        <img src="https://i.imgur.com/qkdpN.jpg" class="feature-bg">
+
+        <div class="feature-row">
+            <div class="feature">
+                <h4>DESIGN</h4>
+                <p>Crafting intuitive and engaging user interfaces.</p>
+            </div>
+
+            <div class="feature">
+                <h4>DEVELOPMENT</h4>
+                <p>Building scalable, high-performance web applications.</p>
+            </div>
+        </div>
+
+        <div class="feature-center">
+            <div class="feature">
+                <h4>MAINTENANCE</h4>
+                <p>Keeping your software modern and bug-free</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SKILLS TITLE -->
+    <div class="title-box skills-title" id="skills">SKILLS</div>
+
+    <!-- USING NOW -->
+    <div class="skills-block">
+
+        <h5 class="skill-heading">USING NOW:</h5>
+
+        <div class="skills-grid">
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png"><span>HTML5</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png"><span>CSS3</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/919/919831.png"><span>SASS</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"><span>JS</span></div>
+
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/919/919851.png"><span>REACT</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"><span>BOOTSTRAP</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png"><span>GIT</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"><span>FIGMA</span></div>
+        </div>
+
+    </div>
+
+    <!-- LEARNING -->
+    <div class="skills-block">
+
+        <h5 class="skill-heading">LEARNING:</h5>
+
+        <div class="skills-grid">
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png"><span>NODEJS</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/919/919836.png"><span>MYSQL</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/919/919830.png"><span>MONGODB</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"><span>TS</span></div>
+        </div>
+
+    </div>
+
+    <!-- OTHER SKILLS -->
+    <div class="skills-block">
+
+        <h5 class="skill-heading">OTHER SKILLS:</h5>
+
+        <div class="skills-grid">
+            <div class="skill"><img src="https://flagcdn.com/w80/gb.png"><span>ENGLISH</span></div>
+            <div class="skill"><img src="https://flagcdn.com/w80/de.png"><span>GERMAN</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"><span>C++</span></div>
+            <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png"><span>C</span></div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- PORTFOLIO SECTION -->
+<section class="portfolio" id="portfolio">
+
+    <!-- HERO BANNER -->
+    <div class="portfolio-hero">
+        <div class="portfolio-title">PORTFOLIO</div>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="portfolio-filter">
+        <span class="active">ALL</span>
+        <span>CODED</span>
+        <span>DESIGNED</span>
+    </div>
+
+    <!-- GRID -->
+    <div class="portfolio-grid">
+
+        
+        <img src="img/c.webp">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+        <img src="img/df.png">
+<img src="img/stup.webp">
+        <img src="img/y.webp">
+        
+        <img src="img/team.webp">
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="portfolio-footer">
+        And many more to come!
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+
+    <div class="contact-title">CONTACT</div>
+
+    <p class="contact-desc">
+        Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus.
+        Sed ornare sit amet lorem sed viverra.
+    </p>
+
+    <div class="divider">— W —</div>
+
+    <!-- FORM -->
+    <form class="contact-form">
+
+        <input type="text" placeholder="ENTER YOUR NAME*">
+        <input type="email" placeholder="ENTER YOUR EMAIL*">
+        <input type="text" placeholder="PHONE NUMBER">
+        <textarea placeholder="YOUR MESSAGE*"></textarea>
+
+        <div class="submit-wrap">
+            <button type="submit">SUBMIT</button>
+        </div>
+
+    </form>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="back">⌃<br>  <a href="#top" class="back-top">BACK TO TOP</a></div>
+
+    <div class="social">
+        <span><img class="h"       src="img/image.png"></span>
+        <span><img class="h"       src="img/in.webp"></span>
+        <span><img class="h"       src="img/twt.webp"></span>
+        <span><img class="h"       src="img/ins.webp"></span>
+    </div>
+
+    <p class="copy">
+        ©2020    Nirmal All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- VANILLA JS FOR MENU CLOSE -->
+<script>
+    // Get all navigation links
+    const navLinks = document.querySelectorAll('.mobile-menu a, .nav a, .hero-nav a');
+    const menuToggle = document.getElementById('menu-toggle');
+    const closeMenu = document.querySelector('.close-menu');
+    
+    // Add click event to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            menuToggle.checked = false;
+        });
+    });
+    
+    // Add click event to close button
+    if (closeMenu) {
+        closeMenu.addEventListener('click', function() {
+            menuToggle.checked = false;
+        });
+    }
+</script>
+
+</body>
+</html>
